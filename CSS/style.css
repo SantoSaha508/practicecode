@@ -1,0 +1,36 @@
+ul{
+    margin: 0;
+    padding: 0;
+    background: tomato;
+    overflow: hidden;
+}
+ul li{
+    float: left;
+
+}
+ul li a{
+    color: azure;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 12px 40px;
+      
+}
+ul li a:hover{
+    background: #53939C;
+}
+.dropdown-content{
+    background: #333;
+    box-shadow: 0 20px 20px 0 rgba(0,0,0,0.3);
+    display: none;
+    position: absolute;
+    min-width: 150px;
+}
+.dropdown-content a{
+    display: block;
+}
+.dropdown-content a:hover{
+    background: #CE5AB4;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
